@@ -1,0 +1,300 @@
+meyerweb.com Main content Navigation links Footer Post Archives CSS Work Toolbox Writing Speaking Other Stuff About this site CSS Tools: Reset CSS The goal of a reset stylesheet is to reduce browser inconsistencies in things like default line heights,
+margins and font sizes of headings,
+and so on. The general reasoning behind this was discussed in a May 2007 post,
+if you're interested. Reset styles quite often appear in CSS frameworks, and the original "meyerweb reset" found its way into Blueprint, among others.
+ The reset styles given here are intentionally very generic. There isn't any default color or background set for the body element, for example. I don't particularly recommend that you just use this in its unaltered state in your own projects. It should be tweaked,
+edited,
+extended,
+and otherwise tuned to match your specific reset baseline. Fill in your preferred colors for the page,
+links,
+and so on. In other words,
+this is a starting point,
+not a self-contained black box of no-touchiness. If you want to use my reset styles,
+then feel free! It's all explicitly in the public domain (I have to formally say that or else people ask me about licensing). You can grab a copy of the file to use and tweak as fits you best. If you're more of the copy-and-paste type,
+or just want an in-page preview of what you'll be getting, here it is.
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.navbar {
+    height: 100px;
+    padding: 50px;
+    background-color: #12285F;
+}
+
+.navbar a {
+    color: white;
+    padding: 10px;
+    margin-right: 40px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.box h1 {
+    width: 216px;
+    height: 32px;
+    background: #D9D9D9;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.box {
+    margin-left: -11px;
+    border: 3px solid #12285F;
+}
+
+.box p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #717171;
+}
+
+.quadrado {
+    padding: 53px;
+    background-image: url(img/bkg.png);
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.boxgreen {
+    height: 180px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    background: #3E6950;
+    box-shadow: 0px 0px 21.6042px 19px rgba(0, 0, 0, 0.3);
+    border-radius: 15.25px;
+}
+
+.boxgreen p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+.contbox h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 24px;
+    /* or 86% */
+    color: #000000;
+}
+
+.barr {
+    margin-bottom: 60px;
+    width: 350px;
+    height: 15px;
+    border-radius: 30px;
+    background-color: #12285F;
+}
+
+.contbox p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.contbox button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    text-align: center;
+    color: #0F2B61;
+    width: 157px;
+    height: 75px;
+    border: 4px solid #061F4E;
+    border-radius: 72px;
+}
+
+footer {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #061F4E;
+}
+
+footer p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 25px;
+    /* or 156% */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+th,
+td {
+    border: 3px solid #005F74;
+    padding: 15px;
+    text-align: left;
+    border-radius: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+    text-align: center;
+    color: #000000;
+}
