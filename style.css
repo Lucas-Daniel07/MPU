@@ -173,10 +173,6 @@ table {
     color: #717171;
 }
 
-.justify p{
-    text-align: center;
-}
-
 .quadrado {
     padding: 53px;
     background-image: url(img/bkg.png);
@@ -208,7 +204,6 @@ table {
 }
 
 .boxblue {
-    text-align: center;
     justify-content: center;
     align-items: center;
     padding: 30px 60px 60px 60px;
@@ -223,19 +218,18 @@ table {
     font-weight: 900;
     font-size: 26px;
     line-height: 30px;
-    text-align: center;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
 
 .boxwhite {
-    text-align: center;
-    justify-content: center;
     align-items: center;
     padding: 60px;
     background: #FFFFFF;
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
     border-radius: 15.25px;
+    height: 19em
+    
 }
 
 .boxwhite p {
@@ -244,7 +238,6 @@ table {
     font-weight: 900;
     font-size: 26px;
     line-height: 30px;
-    text-align: center;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
