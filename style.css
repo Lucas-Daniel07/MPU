@@ -81,10 +81,6 @@ time,
 mark,
 audio,
 video,
-
-
-/* HTML5 display-role reset for older browsers */
-
 article,
 aside,
 details,
@@ -309,6 +305,7 @@ footer p {
 }
 
 th,
+
 td {
     border: 3px solid #005F74;
     padding: 15px;
