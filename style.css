@@ -226,8 +226,7 @@ table {
     background: #FFFFFF;
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
     border-radius: 15.25px;
-    height: 19em
-    
+    height: 80%;
 }
 
 .boxwhite p {
@@ -254,9 +253,9 @@ table {
     color: #182c5c;
 }
 
-.barr {
+.bar {
     margin-bottom: 60px;
-    width: 350px;
+    width: 250px;
     height: 15px;
     border-radius: 30px;
     background-color: #12285F;
